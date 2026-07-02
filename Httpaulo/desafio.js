@@ -11,7 +11,6 @@ let somaDaComanda = 0;
 for (let i = 0; i < comanda.length; i++) {
   somaDaComanda += comanda[i].preço * comanda[i].quantidade;
 }
-
 let comandaComTaxa = somaDaComanda * 1.10;
 
 console.log(`Valor dos produtos: R$ ${somaDaComanda.toFixed(2)}`);
