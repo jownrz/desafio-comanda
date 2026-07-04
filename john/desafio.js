@@ -13,5 +13,5 @@ for (let i = 0; i < 4; i++) {
 
 let totalComServico = total * 1.10
 
-console.log("Total dos itens: R$ ", total.toFixed(2))
-console.log("Total com Serviço: R$ ", totalComServico.toFixed(2))
+console.log("Total dos itens: R$", total.toFixed(2))
+console.log("Total com Serviço: R$", totalComServico.toFixed(2))
